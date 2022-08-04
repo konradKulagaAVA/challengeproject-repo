@@ -21,4 +21,4 @@ steps:
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/konradKulagaAVA/challengeproject-repo/main/CreateWebApp/azuredeploy.json'
     deploymentMode: 'Incremental'
-    deploymentName: 'Initialized CI/CD'
+    deploymentName: 'challengeDeployment'
