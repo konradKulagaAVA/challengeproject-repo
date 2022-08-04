@@ -16,7 +16,7 @@ steps:
     azureResourceManagerConnection: 'bigproject-conn'
     subscriptionId: 'aec799d0-d788-4e61-ac0f-017b5ec3300a'
     action: 'Create Or Update Resource Group'
-    resourceGroupName: 'bigproject-rg'
+    resourceGroupName: 'challenge-rg'
     location: 'Switzerland North'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/konradKulagaAVA/bigproject-repo/main/CreateWebApp/azuredeploy.json'
