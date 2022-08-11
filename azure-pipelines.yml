@@ -53,8 +53,8 @@ steps:
 - task: AzureWebApp@1
   inputs:
     azureSubscription: 'bigproject-conn'
-    appType: 'webAppLinux'
-    appName: 'webApp-rgu56dvmkqbuy'
+    appType: 'webApp'
+    appName: 'myWebApp-rgu56dvmkqbuy'
     deployToSlotOrASE: true
     resourceGroupName: 'challenge-rg'
     slotName: 'production'
