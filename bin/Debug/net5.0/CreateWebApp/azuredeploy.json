@@ -232,7 +232,8 @@
                   "createOption": "FromImage",
                   "caching": "ReadWrite",
                   "managedDisk": {
-                      "storageAccountType": "Premium_LRS"
+                      "storageAccountType": "Premium_LRS",
+                      "id": "[parameters('disks_challenge_rgVM_OsDisk_1_0071edc23fc9459ea03120e5b1fe41b2_externalid')]"
                   },
                   "deleteOption": "Detach",
                   "diskSizeGB": 127
